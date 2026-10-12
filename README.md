@@ -91,6 +91,7 @@ PII appears wherever user input does - chat logs, support tickets, training corp
 - [logstop](https://github.com/ankane/logstop) - Ruby gem keeping personal data out of Rails logs (also [Python port](https://github.com/ankane/logstop.py)). <img src="https://img.shields.io/github/stars/ankane/logstop?style=social" align="center">
 - [redact-pii](https://github.com/solvvy/redact-pii) - Node.js library; regex + optional Google DLP. <img src="https://img.shields.io/github/stars/solvvy/redact-pii?style=social" align="center">
 - [redactomatic](https://github.com/eisenzopf/redactomatic) - CLI for redacting PII in conversation/voice transcripts. <img src="https://img.shields.io/github/stars/eisenzopf/redactomatic?style=social" align="center">
+- [MASCHERA](https://github.com/semprerudi/maschera) - Reversible pseudonymization of Swiss documents (de/fr/it/en) with checksum-validated Swiss identifiers (AHV, UID, IBAN, EGID) and a local ModernBERT model; desktop app and Docker. <img src="https://img.shields.io/github/stars/semprerudi/maschera?style=social" align="center">
 
 ## Models
 
@@ -104,6 +105,7 @@ PII appears wherever user input does - chat logs, support tickets, training corp
 - [betterdataai/PII_DETECTION_MODEL](https://huggingface.co/betterdataai/PII_DETECTION_MODEL) - Qwen2-0.5B causal LM, 7 languages, 29 PII tags.
 - [Babelscape/wikineural-multilingual-ner](https://huggingface.co/Babelscape/wikineural-multilingual-ner) - General multilingual NER (mBERT) over 9 languages.
 - [Davlan/distilbert-base-multilingual-cased-ner-hrl](https://huggingface.co/Davlan/distilbert-base-multilingual-cased-ner-hrl) - DistilBERT NER over 10 high-resource languages.
+- [semprerudi/maschera-ch-v63b](https://huggingface.co/semprerudi/maschera-ch-v63b) - 45 entity types in German, French, Italian and English, incl. Swiss identifiers; trained on synthetic Swiss documents only. MIT.
 
 ### English
 
