@@ -42,6 +42,7 @@ PII appears wherever user input does - chat logs, support tickets, training corp
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Validator-based input/output Guards (see also [guardrails_pii](https://github.com/guardrails-ai/guardrails_pii)). <img src="https://img.shields.io/github/stars/guardrails-ai/guardrails?style=social" align="center">
 - [Llama Guard / PurpleLlama](https://github.com/meta-llama/PurpleLlama) - Meta's content-safety classifiers, useful as a final PII filter. <img src="https://img.shields.io/github/stars/meta-llama/PurpleLlama?style=social" align="center">
 - [LiteLLM](https://github.com/BerriAI/litellm) - LLM proxy with built-in [Presidio guardrail](https://docs.litellm.ai/docs/tutorials/presidio_pii_masking). <img src="https://img.shields.io/github/stars/BerriAI/litellm?style=social" align="center">
+- [seter-guard](https://github.com/Shoresh-Labs/seter-guard) - Self-hosted FastAPI guard that masks Hebrew, Arabic and English PII in prompts and plugs into LiteLLM as a Generic Guardrail API.
 - [anonipy](https://github.com/eriknovak/anonipy) - LLM-powered anonymization with consistent pseudonymization. <img src="https://img.shields.io/github/stars/eriknovak/anonipy?style=social" align="center">
 - [anonLLM](https://github.com/fsndzomga/anonLLM) - Anonymizes prompts before they hit the API; reverses on response. <img src="https://img.shields.io/github/stars/fsndzomga/anonLLM?style=social" align="center">
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - LLM eval and red-team CLI; probes for PII leaks. <img src="https://img.shields.io/github/stars/promptfoo/promptfoo?style=social" align="center">
@@ -101,6 +102,7 @@ PII appears wherever user input does - chat logs, support tickets, training corp
 - [iiiorg/piiranha-v1](https://huggingface.co/iiiorg/piiranha-v1-detect-personal-information) - 17 PII types across 6 languages. CC-BY-NC-ND.
 - [knowledgator/gliner-pii-base-v1.0](https://huggingface.co/knowledgator/gliner-pii-base-v1.0) - 60+ PII/PHI/PCI categories with ONNX FP16/UINT8.
 - [knowledgator/gliner-pii-edge-v1.0](https://huggingface.co/knowledgator/gliner-pii-edge-v1.0) - Edge-optimized GLiNER PII variant.
+- [shoresh-labs/seter-pii-he-ar](https://huggingface.co/shoresh-labs/seter-pii-he-ar) - Open MIT PII token-classification model (v1.1) for Hebrew, Arabic and English, including standalone first names, with an [in-browser ONNX demo](https://huggingface.co/spaces/yinonov/seter-demo).
 - [betterdataai/PII_DETECTION_MODEL](https://huggingface.co/betterdataai/PII_DETECTION_MODEL) - Qwen2-0.5B causal LM, 7 languages, 29 PII tags.
 - [Babelscape/wikineural-multilingual-ner](https://huggingface.co/Babelscape/wikineural-multilingual-ner) - General multilingual NER (mBERT) over 9 languages.
 - [Davlan/distilbert-base-multilingual-cased-ner-hrl](https://huggingface.co/Davlan/distilbert-base-multilingual-cased-ner-hrl) - DistilBERT NER over 10 high-resource languages.
