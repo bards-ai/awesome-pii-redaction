@@ -33,6 +33,7 @@ PII appears wherever user input does - chat logs, support tickets, training corp
 - [PIISA pii-extract-base](https://github.com/piisa/pii-extract-base) / [pii-process](https://github.com/piisa/pii-process) - Modular PII pipeline following the PIISA spec. <img src="https://img.shields.io/github/stars/piisa/pii-extract-base?style=social" align="center">
 - [thoughtworks/pii-anonymizer](https://github.com/thoughtworks/pii-anonymizer) - PII identification, anonymization, and de-anonymization. <img src="https://img.shields.io/github/stars/thoughtworks/pii-anonymizer?style=social" align="center">
 - [worka-ai/pii](https://github.com/worka-ai/pii) - Deterministic CPU-only PII library in Rust. <img src="https://img.shields.io/github/stars/worka-ai/pii?style=social" align="center">
+- [newmean-pii](https://github.com/newmean-ai/pii) - On-device PII redaction in 54 languages with 2.6–15.5 MB models for the browser, Python, iOS, Android and Flutter; ships an [open multilingual test set](https://huggingface.co/datasets/newmean-ai/pii-dataset). <img src="https://img.shields.io/github/stars/newmean-ai/pii?style=social" align="center">
 - [Faker](https://github.com/joke2k/faker) - Synthetic-data generator across 50+ locales. <img src="https://img.shields.io/github/stars/joke2k/faker?style=social" align="center">
 
 ### LLM Guardrails
