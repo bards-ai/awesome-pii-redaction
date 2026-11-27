@@ -46,6 +46,7 @@ PII appears wherever user input does - chat logs, support tickets, training corp
 - [anonLLM](https://github.com/fsndzomga/anonLLM) - Anonymizes prompts before they hit the API; reverses on response. <img src="https://img.shields.io/github/stars/fsndzomga/anonLLM?style=social" align="center">
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - LLM eval and red-team CLI; probes for PII leaks. <img src="https://img.shields.io/github/stars/promptfoo/promptfoo?style=social" align="center">
 - [openai-guardrails-python](https://github.com/openai/openai-guardrails-python) - Drop-in OpenAI client wrapper with safety/PII guardrails. <img src="https://img.shields.io/github/stars/openai/openai-guardrails-python?style=social" align="center">
+- [pii-roundtrip](https://github.com/beskvladimir-create/pii-roundtrip) - Local reversible pseudonymization of Russian and UK English documents before LLM calls, with an [open benchmark](https://arxiv.org/abs/2610.34012) of existing PII tools. <img src="https://img.shields.io/github/stars/beskvladimir-create/pii-roundtrip?style=social" align="center">
 
 ### Database & Structured Data
 
