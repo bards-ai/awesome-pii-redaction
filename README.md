@@ -115,6 +115,10 @@ PII appears wherever user input does - chat logs, support tickets, training corp
 - [Jean-Baptiste/roberta-large-ner-english](https://huggingface.co/Jean-Baptiste/roberta-large-ner-english) - RoBERTa-large NER tested on emails and chat.
 - [LiquidAI/LFM2-350M-PII-Extract-JP](https://huggingface.co/LiquidAI/LFM2-350M-PII-Extract-JP) - Japanese PII extractor producing structured JSON.
 
+### German
+
+- [syntriq/tarn-german-pii-base](https://huggingface.co/syntriq/tarn-german-pii-base) - German PII token classifier (125M) with Presidio entity names and German identifiers such as tax ID, health insurance, ID card and driving licence numbers; trained on synthetic data only, ONNX int8 [in-browser demo](https://huggingface.co/spaces/syntriq/tarn-german-pii-demo).
+
 ### Healthcare / PHI
 
 - [obi/deid_roberta_i2b2](https://huggingface.co/obi/deid_roberta_i2b2) - RoBERTa-large on i2b2 2014 (11 PHI categories).
@@ -143,6 +147,7 @@ PII appears wherever user input does - chat logs, support tickets, training corp
 - [Babelscape/multinerd](https://huggingface.co/datasets/Babelscape/multinerd) - 3.35M rows, 10 languages, 15 entity types.
 - [urchade/synthetic-pii-ner-mistral-v1](https://huggingface.co/datasets/urchade/synthetic-pii-ner-mistral-v1) - LLM-synthesized PII training data (5 languages).
 - [bigcode/bigcode-pii-dataset](https://huggingface.co/datasets/bigcode/bigcode-pii-dataset) - 12k annotated code samples across 31 languages. Gated.
+- [syntriq/german-pii-benchmark](https://huggingface.co/datasets/syntriq/german-pii-benchmark) - 687 synthetic German documents with 8,035 labelled spans across 19 Presidio entity types.
 - [Text Anonymization Benchmark (TAB)](https://github.com/NorskRegnesentral/text-anonymization-benchmark) - 1,268 ECHR cases annotated for evaluating anonymization. <img src="https://img.shields.io/github/stars/NorskRegnesentral/text-anonymization-benchmark?style=social" align="center">
 - [n2c2 / i2b2 De-identification](https://n2c2.dbmi.hms.harvard.edu/data-sets) - The de facto medical de-id benchmarks. DUA required.
 - [bigbio/n2c2_2014_deid](https://huggingface.co/datasets/bigbio/n2c2_2014_deid) - HF mirror of the 2014 i2b2 track.
